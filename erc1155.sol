@@ -35,3 +35,6 @@ contract MintNFT is ERC1155, Ownable {
         safeTransferFrom(_from, _to, _tokenId, _amount, "");
     }
 }
+
+
+// imageURI = "https://violet-immediate-lizard-852.mypinata.cloud/ipfs/QmaHTj3CRU5DLcFUTC2KuXBDTtsE8LD92d6WhxMXdZ9L7p"
